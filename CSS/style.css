@@ -360,20 +360,45 @@ main {
     object-fit: cover;
 }
 
+.img2 {
+    height: 190px;
+}
+
+.img3 {
+    height: 110px;
+}
+
+.img5 {
+    height: 140px;
+}
+
+.img6 {
+    height: 170px;
+}
+
 .acti_column {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 30px;
+    gap: 10px;
+    box-sizing: border-box;
 }
 
 .acti_name {
-    margin: 5px 0 5px 10px;
+    margin: 15px 0 15px 10px;
 }
 
 .acti_margin{
     margin-bottom: 30px;
     justify-content: space-between;
+}
+
+.container h4 {
+    margin-left: 5px;
+}
+
+.first_star {
+    margin-left: 2px;
 }
 
 /* ---------- Footer ---------- */
