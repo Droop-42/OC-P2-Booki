@@ -1,32 +1,8 @@
 
-/* ---------- Body ---------- */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css');
 
-@font-face {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/raleway-v27-latin-regular.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('../fonts/raleway-v27-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/raleway-v27-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/raleway-v27-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/raleway-v27-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/raleway-v27-latin-regular.svg#Raleway') format('svg'); /* Legacy iOS */
-}
-  
-@font-face {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
-    src: url('../fonts/raleway-v27-latin-800.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('../fonts/raleway-v27-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/raleway-v27-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/raleway-v27-latin-800.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/raleway-v27-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/raleway-v27-latin-800.svg#Raleway') format('svg'); /* Legacy iOS */
-}
-  
+/* ---------- Body ---------- */
 
 body {
     font-family: 'Raleway', Arial, serif;
