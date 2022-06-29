@@ -170,7 +170,6 @@ main {
     display: flex;
     background-color: white;
     height: 50px;
-    /*margin-left: 10px;*/
     padding: 0px; 
     border: 2px solid #d8d8d8;
     border-left: 0px;
@@ -188,7 +187,6 @@ main {
 }
 
 .filtre:hover {
-    /*transform: scale(1.05);*/
     background-color: #0065FC;
     color: white;
 }
@@ -217,7 +215,6 @@ main {
     border-radius: 50%;
     text-align: center;
     line-height: 20px;
-    /*vertical-align: center;*/
     padding: 0px;
     margin-right: 5px;
 }
@@ -226,7 +223,6 @@ main {
 
 #lodging {
     display: flex;
-    /*margin: 0px;*/
     margin-top: 35px;
     justify-content: space-between;
     gap: 20px;
@@ -250,7 +246,6 @@ main {
     align-items: center;
     justify-content: space-between;
     margin: 0px;
-    /*padding: 10px;*/
 }
 
 /* Cards */
@@ -411,7 +406,6 @@ footer {
     border: none;
     margin: 0;
     padding: 0;
-    /*justify-content: space-between;*/
 }
 
 .links {
@@ -450,7 +444,6 @@ footer {
 
     .card {
         max-width: 400px;
-        /*width: 45%;*/
         min-width: 200px;
     }
 
@@ -458,7 +451,6 @@ footer {
         background-color: white;
         border-radius: 0px;
         margin: 0px;
-        /*padding: 20px;*/
         width: 100%;
     }
 
@@ -598,7 +590,6 @@ footer {
 
     .card_activity {
         box-sizing: border-box;
-        /*margin: 20px;*/
         width: 100%;
         height: 190px;
     }
@@ -621,13 +612,11 @@ footer {
 
     .img_activity {
         width: 100%;
-        /*box-sizing: border-box;*/
         height: 130px;
     }
 
     .img_activity_col {
         width: 100%;
-        /*box-sizing: border-box;*/
         height: 130px;
 
     }
@@ -642,7 +631,6 @@ footer {
     }
 
     .popu_title {
-        /*margin: 0 20px 0 20px;*/
         justify-content: space-between;
         max-width: 380px;
         align-items: center;
@@ -650,7 +638,6 @@ footer {
     }
 
     .card_box_popu {
-        /*margin: 20px;*/
         flex-wrap: nowrap;
         flex-direction: column;
     }
@@ -669,6 +656,13 @@ footer {
     .links {
         width: 100%;
 
+    }
+
+    .link_card {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        max-width: 380px;
     }
 
 }
