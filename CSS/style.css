@@ -385,7 +385,7 @@ main {
 }
 
 .acti_name {
-    margin: 15px 0 15px 10px;
+    padding: 15px 0 15px 10px;
 }
 
 .acti_margin{
@@ -469,6 +469,7 @@ footer {
     .popu_title {
         justify-content: space-between;
         width: 30%;
+        min-width: 215px;
     }
 
     .popu_title2 {
@@ -478,9 +479,7 @@ footer {
         max-width: 380px;
     }
 
-    .section_act {
-        /*padding: 20px;*/
-    }
+
 
     .acti_bloc {
         width: 100%;
@@ -554,7 +553,9 @@ footer {
         margin: 0px;
         border: 0px solid white;
         border-radius: 15px;
-        color: white;    
+        color: white;
+        position: relative;
+        right: 7px;
     }
 
     #filtres {
