@@ -144,6 +144,10 @@ main {
     font-weight: 700;
 }
 
+.loc {
+    border: 0px solid white;
+}
+
 .button_search_icon{
     display: none;    
 }
